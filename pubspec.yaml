@@ -1,0 +1,28 @@
+name: game_of_thrones_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  build_runner: ^2.4.9
+  dio: ^5.4.3+1
+  flutter_bloc: ^8.1.6
+  flutter_lints: ^3.0.0
+  flutter_offline: ^3.0.1
+  flutter_test:
+    sdk: flutter
+  get_it: ^7.7.0
+  json_annotation: ^4.9.0
+  json_serializable: ^6.8.0
+  retrofit: ^4.1.0
+  retrofit_generator: ^8.1.0
+
+flutter:
+  uses-material-design: true
